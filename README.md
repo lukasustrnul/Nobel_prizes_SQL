@@ -6,7 +6,7 @@ Source of the used data: https://www.kaggle.com/datasets/shayalvaghasiya/nobel-p
 
 Data was prosessed in Jupyter notebook using [sqlite3](https://docs.python.org/3/library/sqlite3.html) and cell magic **%%sql**
 
-All the queries (without outputs) can be found in file: SQL_Nobel_prize_analysis.ipynb  
+All the queries (without outputs) can be found in file: [SQL_Nobel_prize_analysis.ipynb](SQL_Nobel_prize_analysis.ipynb)  
 You are welcome to download the notebook, nobel.csv file, then run all the cells and explore the data yourself by editing the queries.
 
 ## Introduction
