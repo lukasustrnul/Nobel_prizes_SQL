@@ -7,7 +7,8 @@ Source of the used data: https://www.kaggle.com/datasets/shayalvaghasiya/nobel-p
 Data was prosessed in Jupyter notebook using [sqlite3](https://docs.python.org/3/library/sqlite3.html) and cell magic **%%sql**
 
 All the queries (without outputs) can be found in file: [SQL_Nobel_prize_analysis.ipynb](SQL_Nobel_prize_analysis.ipynb)  
-You are welcome to download the notebook, nobel.csv file, then run all the cells and explore the data yourself by editing the queries.
+You are welcome to download the notebook, nobel.csv file, then run all the cells and explore the data yourself by editing the queries.  
+You can also check or download larger notebook containing all the outputs: [SQL_Nobel_prize_analysis_with_outputs.ipynb](SQL_Nobel_prize_analysis_with_outputs.ipynb) 
 
 ## Introduction
 Nobel Prize is likely the most well-known award in the world. First time they were awarded in 1901 in the fields of Physics, Chemistry, Physiology or Medicine, Literature, and Peace. In the 1969 was established additional prize in Economics. You can read more at [Nobel Prize web](https://www.nobelprize.org/) or at [Wikipedia](https://en.wikipedia.org/wiki/Nobel_Prize).
