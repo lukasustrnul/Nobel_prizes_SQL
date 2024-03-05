@@ -54,7 +54,7 @@ These problematic rows weren't included in the analysis of birth date, month, an
 **Laureates with the Most Prizes:**
 Let's begin by exploring individuals and organizations with the most Nobel Prizes. Interestingly, one organization and five individuals have each received two Nobel Prizes, with only one of them still alive. The absolute record holder is the Red Cross, awarded all three of its prizes for Peace in 1917, 1944, and 1963.
 
-this is a placeholder for Figure1
+![Figure 1](/tables_jpg/figure01.jpg 'Figure 1')
 
 **Number of Prizes by Country of Birth:**
 Shifting our focus to countries, the United States clearly leads the pack with 291 laureates, followed by the United Kingdom with 91 and Germany with 67. However, it's important to consider that many scientific fields represented by Nobel Prizes involve international collaboration.
@@ -63,21 +63,21 @@ The dataset reveals 464 laureates who received their prize while working in an o
 
 The following table presents the number of Nobel Prizes per country based on the laureate's organization (nr_prizes_org), place of birth (nr_prizes_birth), and the difference between these numbers. Surprisingly, only three countries have a higher number of Nobel Prizes in terms of organizations than the number of laureates born in those countries. Furthermore, the table (available only for countries with records in both the first two columns) reveals that Russia, Germany, and France have the most negative balance. Laureates affiliated with organizations in these countries received 15, 18, and 20 fewer prizes, respectively, compared to the number of laureates born in those countries.
 
-this is a placeholder for Figure2
+![Figure 2](/tables_jpg/figure02.jpg 'Figure 2')
 
 **Universities and Nobel Prizes:**
 It's natural to wonder how world-renowned universities like Cambridge, Oxford, Harvard, and MIT fare when it comes to the number of Nobel Prizes obtained by their scientists.
 
 Among the 12 organizations associated with 10 or more Nobel Prizes, all but three are from the United States. These 12 institutions boast a remarkable 228 Nobel Prizes, which is nearly a quarter of all Nobel Prizes awarded. The University of California leads the pack with 36 laureates, followed by Harvard, Stanford, MIT, and Chicago. Notably, the most successful UK university is Cambridge with 17 laureates.
 
-this is a placeholder for Figure 3
+![Figure 3](/tables_jpg/figure03.jpg 'Figure 3')
 
 **A Personal Note:**
 As someone from the Czech Republic, I was curious about the number of laureates associated with my country. The dataset reveals six laureates, all born within the current Czech Republic. Interestingly, two were women, and only one laureate, awarded in 2007, is still alive. These laureates represent all Nobel Prize categories except Economics, with two in Medicine and one each in Peace, Literature, Chemistry, and Physics.
 
 I encourage you to explore the notebook and modify specific cell to learn more about laureates from your own country.
 
-this is a placeholder for Figure 4
+![Figure 4](/tables_jpg/figure04.jpg 'Figure 4')
 
 ### Birth dates statistics
 Many people believe in astrology or other superstitions. That is not my case but we can we can still explore whether birth dates influence Nobel Prize chances. 
@@ -88,12 +88,12 @@ February 28th seems "luckiest" with eight laureates born on that day. Three othe
 **Monthly Distribution:**
 Unsurprisingly, February has the fewest laureates due to its shorter length. However, the difference from other months is too substantial to be solely attributed to the missing days. Ideally, we would need to consider birth rate statistics to determine if this truly indicates a statistical difference in Nobel laureates born in each month. Regardless, June (90) and September (91) have the most laureates, despite having only 30 days.
 
-this is a placeholder for Figure 5 
+![Figure 5](/tables_jpg/figure05.jpg 'Figure 5')
 
 **Days of the Week:**
 While only 121 laureates were born on Sunday, Saturday is the "luckiest" with 165, 20 more than the second-best day, Tuesday. 
 
-this is a placeholder for Figure 6
+![Figure 6](/tables_jpg/figure06.jpg 'Figure 6')
 
 **Are These Trends Real?**
 While the above differences might seem significant, with less than 1,000 laureates with birth dates, it's not enough to definitively distinguish randomness from a pattern.
@@ -102,7 +102,7 @@ Imagine all days are equally likely and simulate the same statistics by randomly
 
 Therefore, currently "lucky" days are likely just a result of chance. We would need hundreds of times more laureates to find any deviations from an even distribution.
 
-this is a placeholder for Figure 7
+![Figure 7](/tables_jpg/figure07.jpg 'Figure 7')
 
 ### Statistics on Age of Laureates
 Developing knowledge, conducting research, and testing ideas take time. Recognizing outstanding scientific work with significant influence often takes even longer. Therefore, it's unsurprising that Nobel laureates in most categories are awarded the prize at a relatively old age. Let's delve deeper into the statistics related to laureate age.
@@ -110,7 +110,7 @@ Developing knowledge, conducting research, and testing ideas take time. Recogniz
 **Earliest and Latest Born Laureates:**
 The earliest-born Nobel laureate was writer C.M.T. Mommsen, born in 1817 and awarded the prize in 1902. The latest-born is Malala Yousafzai, born in 1997 and awarded the Peace Prize in 2014.
 
-this is a placeholder for Figure 8
+![Figure 8](/tables_jpg/figure08.jpg 'Figure 8')
 
 **Average Age at Award:**
 The first table below shows the average age of laureates by category when they received the prize. The second table shows this average age across decades. We can see that:
@@ -119,14 +119,15 @@ The first table below shows the average age of laureates by category when they r
 - **Literature laureates** are consistently older than laureates in other categories.
 - The **average age** has increased over time.
 
-this is a placeholder for Figure 9 and 10
+![Figure 9](/tables_jpg/figure09.jpg 'Figure 9')
+![Figure 10](/tables_jpg/figure10.jpg 'Figure 10')
 
 **Average Age by Category and Decade:**
 As mentioned earlier, some Nobel Prizes are scientific, while Peace and Literature are not directly related to scientific research. It's interesting to see how the average age within each category has changed over time.
 
 The data reveals a significant increase in average age for all scientific categories except Economics. In contrast, the average age of literature laureates remains consistently higher than any other category (except Peace) and has gradually increased since the 1930s. The Peace Prize is an outlier, with the average age fluctuating throughout decades, sometimes being the highest and sometimes the lowest of all categories.
 
-this is a placeholder for Figure 11
+![Figure 11](/tables_jpg/figure11.jpg 'Figure 11')
 
 **Oldest and Youngest Laureates:**
 After examining average ages, let's explore some exceptional cases. Interestingly, both the five oldest and youngest laureate categories include three physicists!
@@ -134,27 +135,28 @@ After examining average ages, let's explore some exceptional cases. Interestingl
 - **Oldest Laureates:** All the oldest laureates were awarded relatively recently.
 - **Youngest Laureates:** These individuals showcase a striking difference in categories. The physicists were awarded in 1915 and the 1930s, while the Peace Prize laureates received their awards in the 2010s.
 
-this is a placeholder for Figure 12 and 13
+![Figure 12](/tables_jpg/figure12.jpg 'Figure 12')
+![Figure 13](/tables_jpg/figure13.jpg 'Figure 13')
 
 **Lifespan:**
 So far, we were looking at the age in the moment of getting the Nobel Prize and now we can check some facts related to length of life. Who had the shortest lifespan? This sad record holds Martin Luther King Jr., who was assassinated at the young age of 39, just four years after receiving the Peace Prize. Niels Ryberg Finsen Finsen suffered from Niemann–Pick disease and passed away due to multiple health issues. Albert Camus and Pierre Curie both died tragically in accidents. Carl von Ossietzky succumbed to tuberculosis after enduring mistreatment and torture under the Nazi regime in Germany.
 
-this is a placeholder for Figure 14
+![Figure 14](/tables_jpg/figure14.jpg 'Figure 14')
 
 On a bit more positive note, here are five laureates who died in the highest age. Rita Levi-Montalcini lived the longest, reaching the remarkable age of 103.
 
-this is a placeholder for Figure 15
+![Figure 15](/tables_jpg/figure15.jpg 'Figure 15')
 
 It's crucial to acknowledge the limitations of the data. Our initial exploration revealed a significant number of missing values in the death date column. This could indicate that many laureates are still alive, or that the Nobel dataset might not be consistently updated with death information.
 
 **Five "Oldest Living" Laureates (based on the dataset):**
 While the data suggests they are mostly older than the oldest laureate in the previous table, further investigation revealed they all passed away between 2017 and 2021. Therefore, we can estimate their lifespans to be around 100 years. Clearly, the Nobel dataset provided misleading information.
 
-this is a placeholder for Figure 16
+![Figure 16](/tables_jpg/figure16.jpg 'Figure 16')
 
 Although, we cannot rely on the data when it comes to missing death dates, there is one more statistic which was originally influenced by this problem but I have removed two names based on manual check if the laureates are alive. The last table shows individuals who enjoyed the longest period between receiving the Nobel Prize and their death (or the current date if still alive). Chen Ning Yang and Tsung-Dao Lee hold the record, having been awarded the prize in 1957, nearly 67 years ago. James Dewey Watson was awarded almost 62 years ago and Louis de Broglie lived 58 years after receiving Nobel Prize. 
 
-this is a placeholder for Figure 17
+![Figure 17](/tables_jpg/figure17.jpg 'Figure 17')
 
 ## Conclusion
 This analysis examined the Nobel Prize dataset, ensuring data consistency and addressing missing values. We explored laureates and awarding organizations by country, and calculated age-related statistics. Notably, identifying the oldest living laureates revealed frequent gaps in death date information.
