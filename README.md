@@ -1,8 +1,8 @@
-# Nobel prizes analysis (SQL)
+# Nobel Prizes Analysis (SQL)
 Analysis of The Nobel Foundation dataset containing information about all Nobel prize winners from 1901 till 2023. Let's check for some records and interesting facts. This project is purely SQL without visualizations.
 
 
-### Data origin and processing
+### Data Origin and Processing
 Source of the used data: https://www.kaggle.com/datasets/shayalvaghasiya/nobel-prize-data
 
 Data was prosessed in Jupyter notebook using [sqlite3](https://docs.python.org/3/library/sqlite3.html) and cell magic **%%sql**
