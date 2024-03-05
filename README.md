@@ -54,7 +54,7 @@ These problematic rows weren't included in the analysis of birth date, month, an
 **Laureates with the Most Prizes:**
 Let's begin by exploring individuals and organizations with the most Nobel Prizes. Interestingly, one organization and five individuals have each received two Nobel Prizes, with only one of them still alive. The absolute record holder is the Red Cross, awarded all three of its prizes for Peace in 1917, 1944, and 1963.
 
-![Figure 1](/tables_jpg/figure01.jpg 'Figure 1')
+<img src="/tables_jpg/figure01.jpg" width="100%">
 
 **Number of Prizes by Country of Birth:**
 Shifting our focus to countries, the United States clearly leads the pack with 291 laureates, followed by the United Kingdom with 91 and Germany with 67. However, it's important to consider that many scientific fields represented by Nobel Prizes involve international collaboration.
@@ -63,14 +63,14 @@ The dataset reveals 464 laureates who received their prize while working in an o
 
 The following table presents the number of Nobel Prizes per country based on the laureate's organization (nr_prizes_org), place of birth (nr_prizes_birth), and the difference between these numbers. Surprisingly, only three countries have a higher number of Nobel Prizes in terms of organizations than the number of laureates born in those countries. Furthermore, the table (available only for countries with records in both the first two columns) reveals that Russia, Germany, and France have the most negative balance. Laureates affiliated with organizations in these countries received 15, 18, and 20 fewer prizes, respectively, compared to the number of laureates born in those countries.
 
-![Figure 2](/tables_jpg/figure02.jpg 'Figure 2')
+<img src="/tables_jpg/figure02.jpg" width="50%">
 
 **Universities and Nobel Prizes:**
 It's natural to wonder how world-renowned universities like Cambridge, Oxford, Harvard, and MIT fare when it comes to the number of Nobel Prizes obtained by their scientists.
 
 Among the 12 organizations associated with 10 or more Nobel Prizes, all but three are from the United States. These 12 institutions boast a remarkable 228 Nobel Prizes, which is nearly a quarter of all Nobel Prizes awarded. The University of California leads the pack with 36 laureates, followed by Harvard, Stanford, MIT, and Chicago. Notably, the most successful UK university is Cambridge with 17 laureates.
 
-![Figure 3](/tables_jpg/figure03.jpg 'Figure 3')
+<img src="/tables_jpg/figure03.jpg" width="50%">
 
 **A Personal Note:**
 As someone from the Czech Republic, I was curious about the number of laureates associated with my country. The dataset reveals six laureates, all born within the current Czech Republic. Interestingly, two were women, and only one laureate, awarded in 2007, is still alive. These laureates represent all Nobel Prize categories except Economics, with two in Medicine and one each in Peace, Literature, Chemistry, and Physics.
@@ -88,12 +88,12 @@ February 28th seems "luckiest" with eight laureates born on that day. Three othe
 **Monthly Distribution:**
 Unsurprisingly, February has the fewest laureates due to its shorter length. However, the difference from other months is too substantial to be solely attributed to the missing days. Ideally, we would need to consider birth rate statistics to determine if this truly indicates a statistical difference in Nobel laureates born in each month. Regardless, June (90) and September (91) have the most laureates, despite having only 30 days.
 
-![Figure 5](/tables_jpg/figure05.jpg 'Figure 5')
+<img src="/tables_jpg/figure05.jpg" width="25%">
 
 **Days of the Week:**
 While only 121 laureates were born on Sunday, Saturday is the "luckiest" with 165, 20 more than the second-best day, Tuesday. 
 
-![Figure 6](/tables_jpg/figure06.jpg 'Figure 6')
+<img src="/tables_jpg/figure06.jpg" width="25%">
 
 **Are These Trends Real?**
 While the above differences might seem significant, with less than 1,000 laureates with birth dates, it's not enough to definitively distinguish randomness from a pattern.
@@ -119,15 +119,16 @@ The first table below shows the average age of laureates by category when they r
 - **Literature laureates** are consistently older than laureates in other categories.
 - The **average age** has increased over time.
 
-![Figure 9](/tables_jpg/figure09.jpg 'Figure 9')
-![Figure 10](/tables_jpg/figure10.jpg 'Figure 10')
+<img src="/tables_jpg/figure09.jpg" width="25%">
+
+<img src="/tables_jpg/figure10.jpg" width="25%">
 
 **Average Age by Category and Decade:**
 As mentioned earlier, some Nobel Prizes are scientific, while Peace and Literature are not directly related to scientific research. It's interesting to see how the average age within each category has changed over time.
 
 The data reveals a significant increase in average age for all scientific categories except Economics. In contrast, the average age of literature laureates remains consistently higher than any other category (except Peace) and has gradually increased since the 1930s. The Peace Prize is an outlier, with the average age fluctuating throughout decades, sometimes being the highest and sometimes the lowest of all categories.
 
-![Figure 11](/tables_jpg/figure11.jpg 'Figure 11')
+<img src="/tables_jpg/figure11.jpg" width="50%">
 
 **Oldest and Youngest Laureates:**
 After examining average ages, let's explore some exceptional cases. Interestingly, both the five oldest and youngest laureate categories include three physicists!
